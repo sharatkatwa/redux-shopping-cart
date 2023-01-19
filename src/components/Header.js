@@ -1,9 +1,9 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { authActions } from '../store/authSlice';
-import { cartActions } from '../store/cartSlice';
 import Cart from './Cart';
 import './Header.css';
+
 const Header = () => {
   const dispatch = useDispatch();
   const logoutHandler = () => {
